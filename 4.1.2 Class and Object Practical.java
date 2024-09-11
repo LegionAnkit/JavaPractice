@@ -19,7 +19,8 @@ class Demo
 	{
 		int num1=4;
 		int num2=5;
-		Calculator calc= new Calculator();
+		Calculator calc= new Calculator(); /*new keyword used to create new object and assign some memory and new Classname() creates a obj for that class
+		calc is a reference var for new object and it is of type Calculator i.e, a non-primitive data type */
 		int result=calc.add(4,5);
 		//calc.add();
 		//int result=calc.add();
